@@ -1,0 +1,17 @@
+# .htaccess
+
+Options +Indexes
+
+DirectoryIndex index.php
+
+IndexIgnore *.txt
+
+#To parse a php or any other file
+#but with my own extension ie: newpage.myfile
+#AddType appication/x-http-php .myfile
+#FilesMatch
+<files table.php >
+	order allow,deny
+	deny from all
+
+</files>

@@ -1,0 +1,102 @@
+	*{
+	margin:0;
+	padding:0;	
+	}
+	body{
+		font-family: Georgia;	
+	}
+	#mainDiv{
+	
+				width: 1000px;
+				margin: auto;
+			
+	}
+	#pageTitle{
+		background: white;
+		width: 1000px;
+		font-family: Georgia;
+		text-align: center;
+		font-size: small;
+		border-top: 5px black solid;
+		border-bottom: 5px black solid;
+		transition: ease-in all 2000ms;
+		-moz-transition: ease-in all 2000ms;
+
+	}
+	#pageTitle:hover{
+		color:black;
+		background: #ffff00;
+		border-top: 5px green solid;
+		border-bottom: 5px red solid;
+		transition: ease-in all 7000ms;
+		-moz-transition: ease-in all 7000ms;
+	}
+	#pageMenu{
+		background-color:black;
+		margin-top:2px;	
+		margin-bottom: 5px;
+	}
+	#pageMenu ul li{
+	display: inline-block;
+	list-style: none;
+	position: relative;
+	padding: 2px 0px 5px 5px;
+	margin-right: 5px;
+
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Georgia;
+	color: red;
+	}
+	#pageMenu ul li a{
+		color: white;
+			
+	}
+	
+	#leftdiv , #rightdiv, #viddiv{
+	background: #101010;
+	display: inline-block;
+	}
+	#leftdiv{
+		width: 499px;
+		height: 500px;
+		border-right: 1px solid black;
+		margin: 0;
+		float: left;
+	}
+	#rightdiv{
+		width: 499px;
+		height: 500px;
+		border-left: 1px solid black;
+		margin: 0;
+	}
+	
+	
+	#viddiv{
+		height: 200px;
+		width:1000px;
+	
+	}
+	
+	.titleA{
+		position: relative;
+		color: white;
+		margin-left: 5px;
+		margin-bottom: 5px;
+		margin-right: 5px;
+		border-bottom: 2px solid white;
+		font-size: 16px;
+	
+	}
+	.titleA:hover{
+		left:5px;
+		
+		color: red;
+		
+		-moz-transition: ease-in all 2000ms;
+	}
+	
+	table, th, td {
+			border: 1px solid black;	
+	}
+	
